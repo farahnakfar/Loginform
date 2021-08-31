@@ -1,0 +1,160 @@
+@import url(reset.css);
+
+
+
+*{
+    box-sizing: border-box;
+   
+}
+
+
+
+
+body{
+     background-size: cover;
+    background-color: rgb(117, 80, 0);
+background-image:url("images/27.jpg");
+font-family: Arial, sans-serif;
+
+}
+
+/* Login bg */
+.login{
+    width: 700px;
+    margin: 200px auto;
+    position: relative;
+    display: flex;
+justify-content: space-between;
+   
+}
+.login .bg{
+    width: 700px;
+    height: 250px;
+    background-color: rgba(46, 46,46,0.7);
+    border-radius: 5px;
+    padding: 30px 0 0 20px;
+   
+    
+     
+}
+
+.login .bg h2{
+    margin: 20px 10px;
+}
+
+.login .bg-content{
+    color: #ffffff;
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+
+.login .login-btn{
+    text-decoration: none;
+    border:1px solid #fff ;
+    color: #fff;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 15px;
+    transition: 0.25s;
+}
+
+.login .login-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* Login Form */
+
+.login .form{
+    position: absolute;
+    background-color: #ffffff;
+    width: 400px;
+    height: 350px;
+    top:-41px;
+    left: 14px;
+    border-radius: 5px;
+    padding:30px;
+    color: goldenrod;
+}
+
+.login .form input{
+    display:block;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid #c7c7c7;
+    width: 100%;
+    padding: 10px 10px 10px 0;
+    outline: none;
+}
+
+.login .form input:focus{
+    border-bottom: 2px solid #828282;
+}
+
+.login .form .submit-btn{
+    background-color: goldenrod;
+    color: #fff;
+    border: none;
+    padding: 10px -20px;
+    border-radius: 3px;
+    transition: 0.3s;
+    width: 70px;
+    margin: 0;
+    
+
+}
+
+.login .form .submit-btn:hover{
+    background-color: rgb(196, 143, 11);
+    cursor: pointer;
+    transition: 0.3s;
+   
+
+}
+ 
+
+
+
+/* Fix  Photo Location*/
+.text-icon{
+  
+    height: 190px;
+    width: 62px;
+    border: none;
+    border-radius: 50px;
+    color:#ffffff;
+    font: normal bold 13px "Open Sans";
+    text-align:center;
+    overflow: hidden;
+    
+}
+
+.text-icon .icon{
+    position: fixed;
+    left: 0;  
+    
+}
+
+.text-icon:hover {
+    width: 20%;
+    transition: width 1s;
+    
+}
+
+.text-icon:after {
+  content: "";
+  width: 130px;
+  display: none;
+  
+}
+
+.text-icon:hover {
+    content: "Golestan Palace - Tehran";
+    display: inline-block;
+}
+
+
+
+ */
